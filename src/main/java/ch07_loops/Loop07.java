@@ -23,22 +23,22 @@ public class Loop07 {
         row = scanner.nextInt();
         // row를 활용하여 반복문 작성
 
-//        for(int i = 0; i < row; i++) {
-//            for(int j = row; j - i < 0; j++) {
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
-//
-//        System.out.println();
-
-
-        for ( int i = 0 ; i < row ; i++ ) {
-            for ( int j = row ; j - i > 0 ; j-- ) {
-                System.out.print("🎈");
+        for(int i = 0; i < row; i++) {
+            for(int j = row; j - i < 0; j++) {
+                System.out.print("*");
             }
             System.out.println();
         }
+
+        System.out.println();
+
+
+//        for ( int i = 0 ; i < row ; i++ ) {
+//            for ( int j = row ; j - i > 0 ; j-- ) {
+//                System.out.print("🎈");
+//            }
+//            System.out.println();
+//        }
 
 
 
