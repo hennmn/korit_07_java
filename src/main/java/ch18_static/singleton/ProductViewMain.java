@@ -2,7 +2,7 @@ package ch18_static.singleton;
 
 public class ProductViewMain {
     public static void main(String[] args) {
-        ProductView.getInstance();
+        ProductView.getInstance();  // new
         ProductView.getInstance();
         ProductView.getInstance();
         ProductView.getInstance();

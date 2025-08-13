@@ -1,10 +1,11 @@
 package org.example;
 
 import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 import lombok.ToString;
 
-@Getter
+@Data
 @Builder
 public class Person {
     private String name;

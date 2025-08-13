@@ -20,9 +20,9 @@ public class ProductView {
 
     // static 메서드의 정의 -> 대부분의 경우 getInstance() -> 시험시 힌트였습니다. 클래스명.메서드명() 호출
     public static ProductView getInstance() {
-        if(instance == null) {              // 현재 인스턴스가 없는 시점이라면 22번 코드라인이 true이므로
-            instance = new ProductView();   // ProductView() 생성자를 호출하여 intance에 대입함.
-        }
-        return instance;                    // 이미 생성되있으면 바로 25번 라인이 실행됨.
+            if(instance == null) {              // 현재 인스턴스가 없는 시점이라면 22번 코드라인이 true이므로
+                instance = new ProductView();   // ProductView() 생성자를 호출하여 intance에 대입함.
+            }
+            return instance;                    // 이미 생성되있으면 바로 25번 라인이 실행됨.
     }
 }
