@@ -63,7 +63,8 @@ public class StrList {
         System.out.println(strList);
 
         // List의 역순 정렬
-        Collections.sort(strList,Comparator.reverseOrder());
+
+
         System.out.println(strList);
 
         // 전체 element 들 출력 방법
