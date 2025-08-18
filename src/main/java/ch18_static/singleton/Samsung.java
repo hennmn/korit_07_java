@@ -5,7 +5,7 @@ import lombok.Getter;
 public class Samsung  {
     /*
    방금 작성한 ProductView 와 인터넷의 레퍼런스를 참조하여
-   Samsug 클래스의 실글톤 패턴을 사용하시오.
+   Samsung 클래스의 실글톤 패턴을 사용하시오.
  */
     private static Samsung instance;
     // 일반 필드(멤버 변수라는 표현을 쓰기도 함)
