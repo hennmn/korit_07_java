@@ -70,6 +70,7 @@ public class StrMap {
         System.out.println("김삼 존재 여부 : "+ searchValueFlag1);
 
         // Map의 엔트리로부터 Set을 생성
+        System.out.println("Map을 Set으로 변경");
         Set<Map.Entry<String, String>> entrySet1 = new HashSet<>();
         //이상의 코드는 Set을 하나 만드는데, 내부에 Key가 Strin, Value가 String인 Map이 통째로
         // 들어간다는 것을 의미합니다.

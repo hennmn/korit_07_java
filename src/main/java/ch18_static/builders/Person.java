@@ -1,7 +1,9 @@
 package ch18_static.builders;
 
-import java.util.Locale;
+import lombok.ToString;
 
+import java.util.Locale;
+@ToString
 public class Person {
     private String name;
     private int age;
@@ -14,6 +16,9 @@ public class Person {
         this.name = builder.name;
         this.age = builder.age;
         this.address = builder.address;
+    }
+
+    public void showOrderInfo() {
     }
     /*
         PersonMain에서 생성자 호출을 통해서 객체를 생성하는 것을 막았습니다.
@@ -55,6 +60,9 @@ public class Person {
         public Person build() {
             return new Person(this);        // 이 this는 Builder 클래스의 인스턴스에 해당합니다.
         }
+
+
+
 
     }
 }

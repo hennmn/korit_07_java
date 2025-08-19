@@ -39,5 +39,6 @@ public class JSON1 {
         String jsonData = gson.toJson(jsonObject1);
         System.out.println(jsonData);
 
+
     }
 }
