@@ -38,14 +38,18 @@ public class Practice {
         listMap.add(map1);
 
 
-        System.out.println(listMap);
+//        System.out.println(listMap);
 
+
+//        for (Map<String, Object> serMap : listMap) {
+//            serMap.entrySet().forEach(result -> System.out.println(result.getKey() + "=" + result.getValue())
+//            );
+//        }
 
         for (Map<String, Object> serMap : listMap) {
-            serMap.entrySet().forEach(result -> System.out.println(result.getKey() + "=" + result.getValue())
+            serMap.entrySet().forEach(result -> System.out.println(result)
             );
         }
-
 
 
 
